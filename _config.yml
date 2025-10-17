@@ -1,0 +1,14 @@
+title: "CS-499 ePortfolio"
+description: "SNHU Computer Science Capstone"
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+include:
+  - index.md
+  - self-assessment/index.md
+  - artifacts/software-design/index.md
+  - artifacts/algorithms-data-structures/index.md
+  - artifacts/databases/index.md
+show_downloads: false
