@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+<link rel="stylesheet" href="assets/css/custom.css">
+
 # Welcome Michael Wheeler Jr's CS-499 ePortfolio
 
 Use these links below to navigate.
