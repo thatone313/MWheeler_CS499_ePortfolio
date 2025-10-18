@@ -7,7 +7,7 @@ title: Home
 
 Use these links below to navigate.
 
-- [Professional Self-Assessment](/self-assessment/)
-- [Software Design & Engineering](/artifacts/software-design/)
-- [Algorithms & Data Structures](/artifacts/algorithms-data-structures/)
-- [Databases](/artifacts/databases/)
+- [Professional Self-Assessment](self-assessment/)
+- [Software Design & Engineering](artifacts/software-design/)
+- [Algorithms & Data Structures](artifacts/algorithms-data-structures/)
+- [Databases](artifacts/databases/)
