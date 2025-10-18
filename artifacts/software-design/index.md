@@ -19,11 +19,16 @@ The artifact I selected for the Software Design and Engineering outcome is my **
 For this enhancement, I focused on strengthening the **authentication system**, **role management**, and **logging structure** to meet professional software-engineering standards.
 
 **Enhancements completed:**
-- Implemented **Time-based One-Time Password (TOTP) Two-Factor Authentication (2FA)** using the **Speakeasy** library.  
-- Added **recovery codes** that are securely hashed and stored for backup authentication.  
-- Introduced **Role-Based Access Control (RBAC)** to separate **admin** and **user** permissions.  
-- Added **structured error logging** using a new MongoDB event-logging model to track both successful and failed logins.  
-- Improved **session handling** and **token validation** through JSON Web Tokens (JWT) containing user roles.  
+- Implemented **Time-based One-Time Password (TOTP) Two-Factor Authentication (2FA)** using the **Speakeasy** library.
+  
+- Added **recovery codes** that are securely hashed and stored for backup authentication.
+  
+- Introduced **Role-Based Access Control (RBAC)** to separate **admin** and **user** permissions.
+  
+- Added **structured error logging** using a new MongoDB event-logging model to track both successful and failed logins.
+   
+- Improved **session handling** and **token validation** through JSON Web Tokens (JWT) containing user roles.
+   
 - Integrated **login rate limiting** middleware to reduce brute-force attack attempts.
 
 These changes enhanced the security, reliability, and maintainability of the application while demonstrating the application of software-engineering principles such as **modularity, abstraction, and secure design**.
@@ -57,11 +62,7 @@ These insights guided my refactoring strategy, ensuring that enhancements were p
 ---
 
 ## Reflection
-This enhancement demonstrates my ability to **apply software engineering principles to create robust, secure, and scalable solutions**.  
-By implementing 2FA, RBAC, and event logging, I built an authentication system that protects both user data and administrative access.  
-I also improved the application’s modularity and readability through cleaner route handling, controller separation, and standardized responses.
-
-Through this process, I strengthened my understanding of **secure design patterns**, **separation of concerns**, and **real-world authentication flows**—skills that directly support my career goals in **network architecture and cybersecurity**.
+This enhancement demonstrates my ability to **apply software engineering principles to create robust, secure, and scalable solutions**. By implementing 2FA, RBAC, and event logging, I built an authentication system that protects both user data and administrative access. I also improved the application’s modularity and readability through cleaner route handling, controller separation, and standardized responses. Through this process, I strengthened my understanding of **secure design patterns**, **separation of concerns**, and **real-world authentication flows**—skills that directly support my career goals in **network architecture and cybersecurity**.
 
 <!-- TODO: Add screenshot showing successful 2FA login with confirmation message -->
 <!-- TODO: add the user model highlighting new fields (role, twoFactorEnabled, recoveryCodes) -->
@@ -71,11 +72,13 @@ Through this process, I strengthened my understanding of **secure design pattern
 ## Evidence
 - **GitHub Repository:** [Travlr Getaways Repository](https://github.com/thatone313/CS465FullStackDevelopment)  
 - **Code Review Video - Part 1:** [Watch Here](https://youtu.be/yE4y5FZN2ck)
-- **Code Review Video - Part 2:** [Watch Here](https://youtu.be/-rbaklZHxl4) 
+- **Code Review Video - Part 2:** [Watch Here](https://youtu.be/-rbaklZHxl4)
+  
 - **Relevant Files:**  
   - `app_api/controllers/authentication.js` – 2FA logic and JWT handling  
   - `app_api/models/user.js` – role, 2FA fields, and recovery codes  
-  - `app_api/models/eventLog.js` – structured event tracking  
+  - `app_api/models/eventLog.js` – structured event tracking
+    
 - **Before/After Screenshots:**  
   - Login flow with 2FA prompt  
   - Admin dashboard access (restricted by RBAC)  
