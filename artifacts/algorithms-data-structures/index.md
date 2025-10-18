@@ -77,4 +77,5 @@ Through these improvements, I gained deeper insight into how well-designed algor
   - Rate-limit error message after excessive login attempts  
   - MongoDB event log entries displaying recorded actions
  
-  - <!-- TODO: After capturing screenshots, upload them to artifacts/algorithms-data-structures/images/-->
+    <!-- TODO: After capturing screenshots, upload them to artifacts/algorithms-data-structures/images/-->
+    <!-- TODO: Replace bulletpoints with images-->
