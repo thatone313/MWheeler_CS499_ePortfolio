@@ -11,7 +11,8 @@ title: Software Design & Engineering
 The artifact I selected for the Software Design and Engineering outcome is my **Travlr Getaways** full-stack travel booking web application, originally developed in **CS-465** using the **MEAN stack** (MongoDB, Express, Angular, and Node.js). This application allows users to browse, book, and manage travel experiences through a secure, interactive interface that includes both user and administrator functions. I selected this artifact because it demonstrates my ability to design, develop, and maintain a modular, production-style web application that integrates the front-end and back-end using secure and scalable design principles.
 
 <!-- TODO: Add a screenshot of Travlr Getaways interface (homepage and admin panel) -->
-
+![Travlr Getaways Homepage](images/TravlrHomePage.jpg)
+![Travlr Getaways Admin Page](images/TravlrAdminPage.jpg)
 
 ---
 
@@ -37,6 +38,13 @@ These changes enhanced the security, reliability, and maintainability of the app
 <!-- TODO: Add screenshot showing RBAC working (admin route access denied for normal user) -->
 <!-- TODO: Add screenshot of MongoDB event log entries showing successful and failed logins -->
 <!-- TODO: Add terminal log showing rate limiter in use -->
+![Login Before Enhancement](/images/No2FA.jpg)
+![Login After Enhancement](/images/w2FA.jpg)
+![User Access Restricted](images/TravelListPage.jpg)
+![Admin Access Full Access](images/TravelListingAdmin.jpg)
+![Login Event Logs](images/LoginEventLog.jpg)
+![Login Rate Limiter](images/Login_Limiter1.jpg)
+![Login Rate Limiter](images/Login_Limiter2.jpg)
 
 ---
 
