@@ -13,6 +13,9 @@ This application allows users to browse, book, and manage travel experiences thr
 
 I selected this artifact because it demonstrates my ability to design, develop, and maintain a modular, production-style web application that integrates the front-end and back-end using secure and scalable design principles.
 
+<!-- TODO: Add a screenshot of Travlr Getaways interface (homepage and admin panel) -->
+
+
 ---
 
 ## What I Improved
@@ -27,6 +30,11 @@ For this enhancement, I focused on strengthening the **authentication system**, 
 - Integrated **login rate limiting** middleware to reduce brute-force attack attempts.
 
 These changes enhanced the security, reliability, and maintainability of the application while demonstrating the application of software-engineering principles such as **modularity, abstraction, and secure design**.
+
+<!-- TODO: Add before/after screenshots showing login without/with 2FA prompt -->
+<!-- TODO: Add screenshot showing RBAC working (admin route access denied for normal user) -->
+<!-- TODO: Add screenshot of MongoDB event log entries showing successful and failed logins -->
+<!-- TODO: Add terminal log showing rate limiter in use -->
 
 ---
 
@@ -45,6 +53,10 @@ This video covered existing vulnerabilities and outlined the plan to strengthen 
 
 These insights guided my refactoring strategy, ensuring that enhancements were purposeful, testable, and in line with real-world secure coding practices.
 
+<!-- TODO: Add image or or clip showing where authentication issues were discussed -->
+<!-- TODO: Add screenshot of authentication.js highlighting the new TOTP verification logic -->
+
+
 ---
 
 ## Reflection
@@ -54,17 +66,23 @@ I also improved the application’s modularity and readability through cleaner r
 
 Through this process, I strengthened my understanding of **secure design patterns**, **separation of concerns**, and **real-world authentication flows**—skills that directly support my career goals in **network architecture and cybersecurity**.
 
+<!-- TODO: Add screenshot showing successful 2FA login with confirmation message -->
+<!-- TODO: add the user model highlighting new fields (role, twoFactorEnabled, recoveryCodes) -->
+
 ---
 
 ## Evidence
 - **GitHub Repository:** [Travlr Getaways Repository](https://github.com/thatone313/CS465FullStackDevelopment)  
 - **Code Review Video - Part 1:** [Watch Here](https://youtu.be/yE4y5FZN2ck)
 - **Code Review Video - Part 2:** [Watch Here](https://youtu.be/-rbaklZHxl4) 
-- **Relevant Files:**  //ADD ME
+- **Relevant Files:**  
   - `app_api/controllers/authentication.js` – 2FA logic and JWT handling  
   - `app_api/models/user.js` – role, 2FA fields, and recovery codes  
   - `app_api/models/eventLog.js` – structured event tracking  
-- **Before/After Screenshots:**  //ADD ME
+- **Before/After Screenshots:**  
   - Login flow with 2FA prompt  
   - Admin dashboard access (restricted by RBAC)  
   - Event logs showing successful and failed logins
+ 
+<!-- TODO: After screenshots are captured, upload them into artifacts/software-design/images/ -->
+<!-- TODO: Replace bullet points with images -->
