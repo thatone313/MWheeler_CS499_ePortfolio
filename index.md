@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Welcome Michael Wheelerr Jr's CS-499 ePortfolio
+# Welcome Michael Wheeler Jr's CS-499 ePortfolio
 
 Use these links below to navigate.
 
