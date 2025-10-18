@@ -3,7 +3,7 @@ layout: default
 title: Software Design & Engineering
 ---
 
-<link rel="stylesheet" href="/assets/css/custom.css">
+<link rel="stylesheet" href="../../assets/css/custom.css">
 
 # Software Design & Engineering Artifact
 
