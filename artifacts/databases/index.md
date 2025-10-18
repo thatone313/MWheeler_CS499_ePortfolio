@@ -3,7 +3,7 @@ layout: default
 title: Databases
 ---
 
-<link rel="stylesheet" href="/assets/css/custom.css">
+<link rel="stylesheet" href="../../assets/css/custom.css">
 
 # Databases Artifact
 
