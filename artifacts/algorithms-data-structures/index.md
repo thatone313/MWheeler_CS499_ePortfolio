@@ -3,7 +3,7 @@ layout: default
 title: Algorithms & Data Structures
 ---
 
-<link rel="stylesheet" href="/assets/css/custom.css">
+<link rel="stylesheet" href="../../assets/css/custom.css">
 
 # Algorithms & Data Structures Artifact
 
