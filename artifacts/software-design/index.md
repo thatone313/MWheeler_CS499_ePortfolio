@@ -47,10 +47,14 @@ This video covered existing vulnerabilities and outlined the plan to strengthen 
 🎥 - **Code Review Video - Part 1:** [Watch Here](https://youtu.be/yE4y5FZN2ck)
 🎥 - **Code Review Video - Part 2:** [Watch Here](https://youtu.be/-rbaklZHxl4) 
 
-**Key takeaways from my review:**  
-- Authentication lacked 2FA and structured error logging.  
-- Admin features were not properly protected by role checks.  
-- The login route allowed unlimited requests with no rate limit.  
+**Key takeaways from my review:** 
+
+- Authentication lacked 2FA and structured error logging.
+  
+- Admin features were not properly protected by role checks.
+    
+- The login route allowed unlimited requests with no rate limit.
+   
 - Session handling was basic and could be made more secure.  
 
 These insights guided my refactoring strategy, ensuring that enhancements were purposeful, testable, and in line with real-world secure coding practices.
@@ -62,6 +66,7 @@ These insights guided my refactoring strategy, ensuring that enhancements were p
 ---
 
 ## Reflection
+
 This enhancement demonstrates my ability to **apply software engineering principles to create robust, secure, and scalable solutions**. By implementing 2FA, RBAC, and event logging, I built an authentication system that protects both user data and administrative access. I also improved the application’s modularity and readability through cleaner route handling, controller separation, and standardized responses. Through this process, I strengthened my understanding of **secure design patterns**, **separation of concerns**, and **real-world authentication flows**—skills that directly support my career goals in **network architecture and cybersecurity**.
 
 <!-- TODO: Add screenshot showing successful 2FA login with confirmation message -->
@@ -70,11 +75,13 @@ This enhancement demonstrates my ability to **apply software engineering princip
 ---
 
 ## Evidence
+
 - **GitHub Repository:** [Travlr Getaways Repository](https://github.com/thatone313/CS465FullStackDevelopment)  
 - **Code Review Video - Part 1:** [Watch Here](https://youtu.be/yE4y5FZN2ck)
 - **Code Review Video - Part 2:** [Watch Here](https://youtu.be/-rbaklZHxl4)
   
-- **Relevant Files:**  
+- **Relevant Files:**
+   
   - `app_api/controllers/authentication.js` – 2FA logic and JWT handling  
   - `app_api/models/user.js` – role, 2FA fields, and recovery codes  
   - `app_api/models/eventLog.js` – structured event tracking
