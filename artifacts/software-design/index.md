@@ -8,10 +8,7 @@ title: Software Design & Engineering
 # Software Design & Engineering Artifact
 
 ## Overview
-The artifact I selected for the Software Design and Engineering outcome is my **Travlr Getaways** full-stack travel booking web application, originally developed in **CS-465** using the **MEAN stack** (MongoDB, Express, Angular, and Node.js).  
-This application allows users to browse, book, and manage travel experiences through a secure, interactive interface that includes both user and administrator functions.
-
-I selected this artifact because it demonstrates my ability to design, develop, and maintain a modular, production-style web application that integrates the front-end and back-end using secure and scalable design principles.
+The artifact I selected for the Software Design and Engineering outcome is my **Travlr Getaways** full-stack travel booking web application, originally developed in **CS-465** using the **MEAN stack** (MongoDB, Express, Angular, and Node.js). This application allows users to browse, book, and manage travel experiences through a secure, interactive interface that includes both user and administrator functions. I selected this artifact because it demonstrates my ability to design, develop, and maintain a modular, production-style web application that integrates the front-end and back-end using secure and scalable design principles.
 
 <!-- TODO: Add a screenshot of Travlr Getaways interface (homepage and admin panel) -->
 
