@@ -3,7 +3,7 @@ layout: default
 title: Professional Self-Assessment
 ---
 
-<link rel="stylesheet" href="/assets/css/custom.css">
+<link rel="stylesheet" href="../assets/css/custom.css">
 
 # Professional Self-Assessment
 
