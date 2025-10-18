@@ -12,6 +12,7 @@ The artifact I selected for the Software Design and Engineering outcome is my **
 
 <!-- TODO: Add a screenshot of Travlr Getaways interface (homepage and admin panel) -->
 ![Travlr Getaways Homepage](images/TravlrHomePage.jpg)
+-
 ![Travlr Getaways Admin Page](images/TravlrAdminPage.jpg)
 
 ---
@@ -69,7 +70,7 @@ These insights guided my refactoring strategy, ensuring that enhancements were p
 
 <!-- TODO: Add image or or clip showing where authentication issues were discussed -->
 <!-- TODO: Add screenshot of authentication.js highlighting the new TOTP verification logic -->
-
+[**Watch Code Review Discussoin of Authentication Issues **](https://youtu.be/Nrz5_AwpX3g)
 
 ---
 
