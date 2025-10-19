@@ -12,8 +12,12 @@ The artifact I selected for the Software Design and Engineering outcome is my **
 
 
 ![Travlr Getaways Homepage](images/TravlrHomePage.jpg)
--
+
+*Homepage interface where users explore featured destinations.*
+
 ![Travlr Getaways Admin Page](images/TravlrAdminPage.jpg)
+
+*Administrative dashboard for managing trips and users.*
 
 ---
 
@@ -37,20 +41,34 @@ These changes enhanced the security, reliability, and maintainability of the app
 
 
 ![Login Before Enhancement](images/No2FA.jpg)
--
+
+*Original login page with basic password authentication only.*
+
 ![Login After Enhancement](images/w2FA.jpg)
--
+
+*Updated login form requiring 2FA code entry.*
+
 ![User Access Before Enhancement](images/TravelListingBefore.jpg)
--
+
+*User view before improvements; no access separation or security layers.*
+
 ![User Access After Enhancement](images/TravelListPageAfter.jpg)
--
+
+*Post-enhancement user page with secure data retrieval and role enforcement.*
+
 ![Admin Access After Enhancement](images/TravelListingAdmin.jpg)
--
+
+*Admin page restricted to elevated privileges through RBAC.*
+
 ![Login Event Logs](images/LoginEventLog.jpg)
--
+
+*Database event log capturing login attempts and authentication results.*
+
 ![Login Rate Limiter](images/Login_Limiter1.jpg)
--
+
 ![Login Rate Limiter](images/Login_Limiter2.jpg)
+
+*Database event log capturing login attempts and authentication results.*
 
 ---
 
@@ -84,6 +102,8 @@ This enhancement demonstrates my ability to **apply software engineering princip
 
 ![Enhanced User Schema and 2FA Login](images/successful2fa.jpg)
 
+*Updated schema and authentication flow showing successful 2FA verification.*
+
 ---
 
 ## Evidence
@@ -92,7 +112,7 @@ This enhancement demonstrates my ability to **apply software engineering princip
 - **Code Review Video - Part 1:** [Watch Here](https://youtu.be/yE4y5FZN2ck)
 - **Code Review Video - Part 2:** [Watch Here](https://youtu.be/-rbaklZHxl4)
   
-- **Enhanced Sourse Files:**
+- **Enhanced Source Files:**
 - *(These files represent the improved versions implemented during my CS-499 Capstone project.)*
    
   - [authentication.js](../../supporting_files/authentication.js) – 2FA logic and JWT handling
