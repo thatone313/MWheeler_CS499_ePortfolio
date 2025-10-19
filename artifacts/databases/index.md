@@ -14,6 +14,8 @@ The artifact I selected for the Databases outcome is my **Travlr Getaways** full
 
 ![EventLog Collection with Logged Events](images/DatabaseStructure.jpg)
 
+*MongoDB Compass view showing collections for users, trips, and event logs.*
+
 ---
 
 ## What I Improved
@@ -35,11 +37,17 @@ The database enhancements focused on strengthening **data security, structure, a
 These updates improved the reliability, traceability, and overall performance of the application while following industry best practices for **database normalization, indexing, and data protection**.
 
 ![User Schema Before Enhancement](images/UserSchemaBefore.jpg)
--
+
+*Original user schema without fields for 2FA, recovery codes, or history.*
+
 ![User Schema After Enhancement](images/UserSchemaAfter.jpg)
-The updated user schema now includes secure fields for 2FA and recovery codes.
--
+
+*Enhanced user schema now includes secure 2FA fields, recovery codes, and pastTrips for tracking user activity.*
+
 ![Recommended Trips Query Result](images/Recommendations.jpg)
+
+*Example of personalized recommendations generated from stored user history.*
+
 ---
 
 ## Code Review Notes
@@ -61,7 +69,11 @@ These enhancements were informed by the same **code review** used to identify im
 
 ![EventLog Model Implementation](images/EventLogs.jpg)
 
+*EventLog model used to store and organize login and activity events.*
+
 ![MongoDB Index Creation Example](images/IndexCreation.jpg)
+
+*Indexes created on trip collection fields to improve query performance.*
 
 ---
 
@@ -80,9 +92,12 @@ The process deepened my understanding of:
 These improvements directly support my professional goals in **cybersecurity and system architecture**, where secure, well-structured data systems are critical.
 
 ![Recommended Trips Populated from Database](images/Recommendations.jpg)
--
+
+*Query results displaying travel recommendations based on previous trips.*
+
 ![Recommended Trips Populated from User Selection](images/RecommendedTrip.jpg)
--
+
+*Front-end output of the recommendation feature populated dynamically.*
 
 ---
 
@@ -92,21 +107,19 @@ These improvements directly support my professional goals in **cybersecurity and
 - **Code Review Videos:**  
   - [Part 1](https://youtu.be/yE4y5FZN2ck)  
   - [Part 2](https://youtu.be/-rbaklZHxl4)
-  - 
+
+    
 - **Relevant Files:**
   
-  - `app_api/models/user.js` – user schema updates, encryption, and pastTrips field  
-  - `app_api/models/eventLog.js` – new logging schema and structure  
-  - `app_api/controllers/users.js` – history tracking and recommendation logic  
-  - `app_api/controllers/authentication.js` – database integration with 2FA and recovery codes
+  - [app_api/models/user.js](../../supporting_files/models_user.js) – updated schema updates, encryption, and pastTrips field  
+  - [app_api/models/eventLog.js](../../supporting_files/eventLog.js) – new logging schema and structure
+  - [app_api/controllers/users.js](../../supporting_files/users.js)– history tracking and recommendation logic  
+  - [app_api/controllers/authentication.js](../../supporting_files/authentication.js) – database integration with 2FA and recovery codes
     
-- **Planned Screenshots:**  
-  - MongoDB user schema with new fields  
-  - Event logs showing recorded login activity  
-  - Query results for recommended trips  
-
-<!-- TODO: Upload all screenshots to artifacts/databases/images/ -->
-<!-- TODO: Replace bullet with images-->
+ 
+ - **Supporting Documentation:**
+  - [Milestone Four Narrative](../../supporting_files/CS499MilestoneFour.docx)
+  - [Travlr Getaways Software Design (Milestone 4)](https://drive.google.com/file/d/16QbBx-q-nHm7J7De-FdLKpwf-exF8yHc/view?usp=drive_link)
 
 
 
