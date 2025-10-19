@@ -11,8 +11,9 @@ title: Databases
 
 The artifact I selected for the Databases outcome is my **Travlr Getaways** full-stack web application, built with the **MEAN stack** (MongoDB, Express, Angular, and Node.js). This project originally served as a travel booking system but was enhanced during CS-499 to demonstrate advanced database design, secure storage, and data-driven personalization. I chose this artifact because it clearly demonstrates my ability to design, query, and optimize a database to support scalable and secure application functionality. It also shows how back-end data structures drive intelligent features like recommendations and event tracking.
 
-<!-- TODO: Add screenshot of MongoDB Compass showing new user schema fields (role, 2FA, recoveryCodes, pastTrips) -->
-<!-- TODO: Add screenshot of eventLog collection displaying sample data -->
+![MongoDB Compass – Updated User Schema](images/UserSchemaAfter.jpg)
+-
+![EventLog Collection with Logged Events](images/DatabaseStructure.jpg)
 
 ---
 
@@ -34,10 +35,13 @@ The database enhancements focused on strengthening **data security, structure, a
 
 These updates improved the reliability, traceability, and overall performance of the application while following industry best practices for **database normalization, indexing, and data protection**.
 
-<!-- TODO: Add screenshot comparing old vs new user schema -->
-<!-- TODO: Add screenshot showing 2FA-related fields in MongoDB -->
-<!-- TODO: Add screenshot of a query returning recommended trips for a user -->
-
+![User Schema Before Enhancement](images/UserSchemaBefore.jpg)
+-
+![User Schema After Enhancement](images/UserSchemaAfter.jpg)
+-
+![2FA Fields Stored Securely in MongoDB](images/User2FAFields.jpg)
+-
+![Recommended Trips Query Result](images/Recommendations.jpg)
 ---
 
 ## Code Review Notes
@@ -76,8 +80,10 @@ The process deepened my understanding of:
 
 These improvements directly support my professional goals in **cybersecurity and system architecture**, where secure, well-structured data systems are critical.
 
-<!-- TODO: Add screenshot showing recommendation results populated from the database -->
-<!-- TODO: Add image or of an event log entry used for auditing -->
+![Recommended Trips Populated from Database](images/Recommendations.jpg)
+-
+![Recommended Trips Populated from User Selection](images/RecommendedTrip.jpg)
+-
 
 ---
 
