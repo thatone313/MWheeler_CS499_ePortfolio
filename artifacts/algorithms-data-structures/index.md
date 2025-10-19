@@ -31,7 +31,7 @@ During this enhancement phase, I improved how the application handles data queri
 
 These enhancements demonstrate my ability to design and apply algorithms that balance **security, performance, and user experience** in a production-style environment.
 
-![Search Results Before Enhancement](images/TravelListingBefore.jpg)
+![Search Results Before Enhancement](../software-design/images/TravelListingBefore.jpg)
 *The original trip listing page without filtering or search optimization.*
 
 ![Search Results After Enhancement](images/Search_Trip_After.jpg)
