@@ -92,7 +92,8 @@ This enhancement demonstrates my ability to **apply software engineering princip
 - **Code Review Video - Part 1:** [Watch Here](https://youtu.be/yE4y5FZN2ck)
 - **Code Review Video - Part 2:** [Watch Here](https://youtu.be/-rbaklZHxl4)
   
-- **Relevant Files:**
+- **Enhanced Sourse Files:**
+- *(These files represent the improved versions implemented during my CS-499 Capstone project.)*
    
   - [authentication.js](../../supporting_files/authentication.js) – 2FA logic and JWT handling
   - [user.js](../../supporting_files/user.js)– role, 2FA fields, and recovery codes
@@ -101,7 +102,7 @@ This enhancement demonstrates my ability to **apply software engineering princip
 
  - **Supporting Documentation:**
   - [Milestone Two Narrative](../../supporting_files/CS499MilestoneTwo.docx)
-  
+  - [Travlr Getaways Software Design (Milestone 2)](https://drive.google.com/file/d/19v_cPs5u9K09WiLyLC1A-dF90NXB1nxt/view?usp=drive_link)
 
     
 
