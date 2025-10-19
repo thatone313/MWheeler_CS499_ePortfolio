@@ -20,7 +20,8 @@ The artifact I selected for the Databases outcome is my **Travlr Getaways** full
 
 ## What I Improved
 
-The database enhancements focused on strengthening **data security, structure, and integration** between the back end and front end.  
+The database enhancements focused on strengthening **data security, structure, and integration** between the back end and front end. They support the **Databases Outcome** by showing how I improved the structure, security,
+and organization of stored data to make the system more reliable and scalable. 
 
 **Key updates included:**
 
