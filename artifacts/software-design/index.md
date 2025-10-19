@@ -99,10 +99,10 @@ This enhancement demonstrates my ability to **apply software engineering princip
   
 - **Relevant Files:**
    
-- [authentication.js](supporting_files/authentication.js) – 2FA logic and JWT handling
-  - [user.js](supporting_files/user.js) – role, 2FA fields, and recovery codes
-  - [app.routes.ts](supporting_files/app.routes.ts) – route based access control
-  - [eventLog.js](supporting_files/eventLog.js) – structured event tracking
+- [authentication.js](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/authentication.js) – 2FA logic and JWT handling
+  - [user.js](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/user.js)– role, 2FA fields, and recovery codes
+  - [app.routes.ts](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/app.routes.ts) – route based access control
+  - [eventLog.js](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/eventLog.js) – structured event tracking
 
     
 - **Before/After Screenshots:**  
