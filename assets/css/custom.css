@@ -127,3 +127,12 @@ th, td{
 thead th{ background: #f3f4f6; }
 
 body{ overflow-wrap: anywhere; word-break: break-word; }
+
+/* --- Remove bold from text --- */
+strong, b {
+  font-weight: 400; /* same weight as normal text */
+}
+
+h1 strong, h2 strong, h3 strong {
+  font-weight: 700; /* keep bold inside headers */
+}
