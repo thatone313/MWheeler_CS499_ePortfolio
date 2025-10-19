@@ -43,9 +43,11 @@ These changes enhanced the security, reliability, and maintainability of the app
 -
 ![Login After Enhancement](images/w2FA.jpg)
 -
-![User Access Restricted](images/TravelListPage.jpg)
+![User Access Before Enhancement](images/TravelListingBefore.jpg)
 -
-![Admin Access Full Access](images/TravelListingAdmin.jpg)
+![User Access After Enhancement](images/TravelListPage.jpg)
+-
+![Admin Full Access](images/TravelListingAdmin.jpg)
 -
 ![Login Event Logs](images/LoginEventLog.jpg)
 -
