@@ -52,7 +52,7 @@ The biggest lessons were: get the schema right, keep routes predictable, log wha
 ## Final Project Download
 The complete, fully enhanced version of the Travlr Getaways application can be downloaded below.
 
-- [Travlr Getaways Full Final Version (ZIP on Google Drive)](hhttps://drive.google.com/file/d/1ntbJnwLSFvVU1hsqGzuvbalb1Zog1KmY/view?usp=drive_link)
+- [Travlr Getaways Full Final Version (ZIP on Google Drive)](https://drive.google.com/file/d/1ntbJnwLSFvVU1hsqGzuvbalb1Zog1KmY/view?usp=drive_link)
 
 
 
