@@ -9,7 +9,7 @@ title: Professional Self-Assessment
 
 I used my **Travlr Getaways** project to demonstrate the skills I’ve built across the CS program and how I apply them in a realistic, full-stack app. Over the capstone I moved the app from a classroom prototype toward something production-ready by tightening security, improving data handling, and adding an algorithms-driven feature that helps users in a meaningful way.
 
-![Travlr Getaways Homepage](artifacts/software-design/images/TravlrHomePage.jpg)
+![Travlr Getaways Homepage](../artifacts/software-design/images/TravlrHomePage.jpg)
 
 ---
 
