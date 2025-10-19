@@ -113,7 +113,7 @@ These improvements directly support my professional goals in **cybersecurity and
   
   - [app_api/models/user.js](../../supporting_files/models_user.js) – updated schema updates, encryption, and pastTrips field  
   - [app_api/models/eventLog.js](../../supporting_files/eventLog.js) – new logging schema and structure
-  - [app_api/controllers/users.js](../../supporting_files/users.js)– history tracking and recommendation logic  
+  - [app_api/controllers/users.js](../../supporting_files/controllers_users.js)– history tracking and recommendation logic  
   - [app_api/controllers/authentication.js](../../supporting_files/authentication.js) – database integration with 2FA and recovery codes
     
  
