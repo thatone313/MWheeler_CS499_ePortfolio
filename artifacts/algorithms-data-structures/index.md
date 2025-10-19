@@ -11,7 +11,7 @@ title: Algorithms & Data Structures
 
 The artifact I selected for the Algorithms and Data Structures outcome is my **Travlr Getaways** full-stack web application, originally developed in **CS-465** using **Node.js, Express, Angular, and MongoDB**. For this enhancement, I focused on strengthening the application’s efficiency and security through the use of **algorithmic logic and structured data handling**. These updates demonstrate how data structures and algorithms can be used to improve both performance and system resilience. I chose this artifact because it provided a real-world opportunity to apply algorithmic thinking across a live application that interacts with user input, databases, and authentication systems.
 
-![Travlr Getaways Homepage](../artifacts/software-design/images/TravlrHomePage.jpg)
+![Travlr Getaways Homepage](../software-design/images/TravlrHomePage.jpg)
 
 *Landing page of the Travlr Getaways application built using the MEAN stack.*
 
