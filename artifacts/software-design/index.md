@@ -99,5 +99,8 @@ This enhancement demonstrates my ability to **apply software engineering princip
   - [app.routes.ts](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/app.routes.ts) – route based access control
   - [eventLog.js](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/eventLog.js) – structured event tracking
 
+ - **Supporting Documentation:**
+  - [Milestone Two Narrative](../../supporting-files/CS499MilestoneTwo.docx)
+
     
 
