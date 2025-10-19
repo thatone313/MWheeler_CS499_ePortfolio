@@ -105,7 +105,7 @@ Through these improvements, I gained deeper insight into how well-designed algor
   - [Part 2](https://youtu.be/-rbaklZHxl4)
   - 
 - **Relevant Files:**
-- 
+  
   - [app_api/controllers/trips.js](../../supporting_files/trips.js) – role, 2FA fields, and recovery codes
   - [app_api/routes/index.js](../../supporting_files/index.js) – route based access control
   - [app_api/models/eventLog.js](../../supporting_files/eventLog.js) – structured event tracking
