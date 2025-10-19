@@ -11,6 +11,9 @@ title: Algorithms & Data Structures
 
 The artifact I selected for the Algorithms and Data Structures outcome is my **Travlr Getaways** full-stack web application, originally developed in **CS-465** using **Node.js, Express, Angular, and MongoDB**. For this enhancement, I focused on strengthening the application’s efficiency and security through the use of **algorithmic logic and structured data handling**. These updates demonstrate how data structures and algorithms can be used to improve both performance and system resilience. I chose this artifact because it provided a real-world opportunity to apply algorithmic thinking across a live application that interacts with user input, databases, and authentication systems.
 
+![Travlr Getaways Homepage](images/TravlrHomePage.jpg)
+*Landing page of the Travlr Getaways application built using the MEAN stack.*
+
 ---
 
 ## What I Improved
@@ -27,9 +30,15 @@ During this enhancement phase, I improved how the application handles data queri
 
 These enhancements demonstrate my ability to design and apply algorithms that balance **security, performance, and user experience** in a production-style environment.
 
-<!-- TODO: Add screenshots showing search results before and after enhancement -->
-<!-- TODO: Add screenshot showing rate limiter -->
-<!-- TODO: Add screenshot of eventLog  -->
+![Search Results Before Enhancement](images/TravelListingBefore.jpg)
+*The original trip listing page without filtering or search optimization.*
+
+![Search Results After Enhancement](images/Search_Trip_After.jpg)
+*Enhanced trip search now supports multi-field, case-insensitive filtering
+for efficient querying.*
+
+![Trip Filtering by Category - Beaches](images/TravelListingBeaches.jpg)
+*Category-based filtering allows users to quickly find matching destinations.*
 ---
 
 ## Code Review Notes
@@ -41,14 +50,22 @@ This phase built directly upon the **recommendations** identified during my orig
 
 **Key improvements from review to enhancement:**
 
-- Replaced inefficient manual filtering with a structured search query using MongoDB’s regex-based `$or` operator for multi-field matching.  
-- Added a **token-based scoring system** to rank similar trips, making search results more relevant.  
-- Integrated **express-rate-limit** middleware to enforce timed request limits and reduce attack vectors.  
-- Created an **eventLog model** to persist security events for auditing.  
+- Replaced manual filtering with a structured query using MongoDB’s `$or` operator for multi-field matching.
+  
+- Added a **token-based scoring system** to rank similar trips and make results more relevant.
+  
+- Integrated **express-rate-limit** middleware to enforce request limits and reduce attack vectors.
+  
+- Created an **eventLog** model to store security-related events for auditing and tracking.
 
-These algorithmic adjustments improved both system integrity and query performance across the app.
-<!-- TODO: screenshot of your trips.js -->
+![Rate Limiting Algorithm Implementation](images/RateLimitingCode.jpg)
+*JavaScript implementation of the login rate limiter restricting excessive login attempts.*
 
+![Event Log Model Example](images/EventLogs.jpg)
+*MongoDB collection recording system events for auditing and anomaly detection.*
+
+![Recommended Trips Display](images/Recommendations.jpg)
+*Results returned by the recommendation logic based on user trip history.*
 
 ---
 
@@ -62,6 +79,9 @@ The experience taught me how to:
 - Use structured logging and data models to make complex systems observable and testable.  
 
 Through these improvements, I gained deeper insight into how well-designed algorithms serve as the backbone of reliable web systems—a lesson that directly supports my professional goals in cybersecurity and system architecture.
+
+![Similar Trips Suggestion Feature](images/SimilarTrip.jpg)
+*The “Similar Trips” algorithm analyzes and suggests related destinations for users.*
 
 ---
 
