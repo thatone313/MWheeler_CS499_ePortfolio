@@ -30,7 +30,7 @@ During this enhancement phase, I improved how the application handles data queri
   
 - Began development of a **recommendation engine** that uses tokenized word similarity to suggest “similar trips,” laying the groundwork for later machine-learning-driven personalization.  
 
-These enhancements demonstrate my ability to design and apply algorithms that balance **security, performance, and user experience** in a production-style environment.
+These enhancements demonstrate my ability to design and apply algorithms that balance **security, performance, and user experience** in a production-style environment. I kept the logic simple and efficient by using set operations and pattern matching, which kept performance fast and predictable even as the data grew, balancing accuracy and responsiveness for users.
 
 
 ![Search Results Before Enhancement](../software-design/images/TravelListingBefore.jpg)
