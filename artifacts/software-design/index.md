@@ -10,7 +10,7 @@ title: Software Design & Engineering
 ## Overview
 The artifact I selected for the Software Design and Engineering outcome is my **Travlr Getaways** full-stack travel booking web application, originally developed in **CS-465** using the **MEAN stack** (MongoDB, Express, Angular, and Node.js). This application allows users to browse, book, and manage travel experiences through a secure, interactive interface that includes both user and administrator functions. I selected this artifact because it demonstrates my ability to design, develop, and maintain a modular, production-style web application that integrates the front-end and back-end using secure and scalable design principles.
 
-<!-- TODO: Add a screenshot of Travlr Getaways interface (homepage and admin panel) -->
+
 ![Travlr Getaways Homepage](images/TravlrHomePage.jpg)
 -
 ![Travlr Getaways Admin Page](images/TravlrAdminPage.jpg)
@@ -35,10 +35,7 @@ For this enhancement, I focused on strengthening the **authentication system**, 
 
 These changes enhanced the security, reliability, and maintainability of the application while demonstrating the application of software-engineering principles such as **modularity, abstraction, and secure design**.
 
-<!-- TODO: Add before/after screenshots showing login without/with 2FA prompt -->
-<!-- TODO: Add screenshot showing RBAC working (admin route access denied for normal user) -->
-<!-- TODO: Add screenshot of MongoDB event log entries showing successful and failed logins -->
-<!-- TODO: Add terminal log showing rate limiter in use -->
+
 ![Login Before Enhancement](images/No2FA.jpg)
 -
 ![Login After Enhancement](images/w2FA.jpg)
@@ -76,8 +73,7 @@ This video covered existing vulnerabilities and outlined the plan to strengthen 
 
 These insights guided my refactoring strategy, ensuring that enhancements were purposeful, testable, and in line with real-world secure coding practices.
 
-<!-- TODO: Add image or or clip showing where authentication issues were discussed -->
-<!-- TODO: Add screenshot of authentication.js highlighting the new TOTP verification logic -->
+
 [**Watch Code Review Discussoin of Authentication Issues **](https://youtu.be/Nrz5_AwpX3g)
 
 ---
@@ -86,8 +82,7 @@ These insights guided my refactoring strategy, ensuring that enhancements were p
 
 This enhancement demonstrates my ability to **apply software engineering principles to create robust, secure, and scalable solutions**. By implementing 2FA, RBAC, and event logging, I built an authentication system that protects both user data and administrative access. I also improved the application’s modularity and readability through cleaner route handling, controller separation, and standardized responses. Through this process, I strengthened my understanding of **secure design patterns**, **separation of concerns**, and **real-world authentication flows**—skills that directly support my career goals in **network architecture and cybersecurity**.
 
-<!-- TODO: Add screenshot showing successful 2FA login with confirmation message -->
-<!-- TODO: add the user model highlighting new fields (role, twoFactorEnabled, recoveryCodes) -->
+![Enhanced User Schema and 2FA Login](images/successful2fa.jpg)
 
 ---
 
@@ -99,16 +94,10 @@ This enhancement demonstrates my ability to **apply software engineering princip
   
 - **Relevant Files:**
    
-- [authentication.js](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/authentication.js) – 2FA logic and JWT handling
+  - [authentication.js](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/authentication.js) – 2FA logic and JWT handling
   - [user.js](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/user.js)– role, 2FA fields, and recovery codes
   - [app.routes.ts](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/app.routes.ts) – route based access control
   - [eventLog.js](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/eventLog.js) – structured event tracking
 
     
-- **Before/After Screenshots:**  
-  - Login flow with 2FA prompt  
-  - Admin dashboard access (restricted by RBAC)  
-  - Event logs showing successful and failed logins
- 
-<!-- TODO: After screenshots are captured, upload them into artifacts/software-design/images/ -->
-<!-- TODO: Replace bullet points with images -->
+
