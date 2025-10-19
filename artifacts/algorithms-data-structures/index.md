@@ -31,15 +31,19 @@ During this enhancement phase, I improved how the application handles data queri
 
 These enhancements demonstrate my ability to design and apply algorithms that balance **security, performance, and user experience** in a production-style environment.
 
+
 ![Search Results Before Enhancement](../software-design/images/TravelListingBefore.jpg)
+
 *The original trip listing page without filtering or search optimization.*
 
 ![Search Results After Enhancement](images/Search_Trip_After.jpg)
-*Enhanced trip search now supports multi-field, case-insensitive filtering
-for efficient querying.*
+
+*Enhanced trip search now supports multi-field, case-insensitive filtering for efficient querying.*
 
 ![Trip Filtering by Category - Beaches](images/TravelListingBeaches.jpg)
+
 *Category-based filtering allows users to quickly find matching destinations.*
+
 ---
 
 ## Code Review Notes
@@ -48,6 +52,7 @@ This phase built directly upon the **recommendations** identified during my orig
 
 🎥 [**Watch Code Review Video – Part 1**](https://youtu.be/yE4y5FZN2ck)  
 🎥 [**Watch Code Review Video – Part 2**](https://youtu.be/-rbaklZHxl4)
+
 
 **Key improvements from review to enhancement:**
 
@@ -58,14 +63,18 @@ This phase built directly upon the **recommendations** identified during my orig
 - Integrated **express-rate-limit** middleware to enforce request limits and reduce attack vectors.
   
 - Created an **eventLog** model to store security-related events for auditing and tracking.
+  
 
 ![Rate Limiting Algorithm Implementation](images/RateLimitingCode.jpg)
+
 *JavaScript implementation of the login rate limiter restricting excessive login attempts.*
 
 ![Event Log Model Example](../databases/images/EventLogs.jpg)
+
 *MongoDB collection recording system events for auditing and anomaly detection.*
 
 ![Recommended Trips Display](../databases/images/Recommendations.jpg)
+
 *Results returned by the recommendation logic based on user trip history.*
 
 ---
@@ -82,6 +91,7 @@ The experience taught me how to:
 Through these improvements, I gained deeper insight into how well-designed algorithms serve as the backbone of reliable web systems—a lesson that directly supports my professional goals in cybersecurity and system architecture.
 
 ![Similar Trips Suggestion Feature](images/SimilarTrip.jpg)
+
 *The “Similar Trips” algorithm analyzes and suggests related destinations for users.*
 
 ---
@@ -95,7 +105,7 @@ Through these improvements, I gained deeper insight into how well-designed algor
   - 
 - **Relevant Files:**
 - 
-  - [app_api/controllers/trips.js](../../supporting_files/trips.js)– role, 2FA fields, and recovery codes
+  - [app_api/controllers/trips.js](../../supporting_files/trips.js) – role, 2FA fields, and recovery codes
   - [app_api/routes/index.js](../../supporting_files/index.js) – route based access control
   - [app_api/models/eventLog.js](../../supporting_files/eventLog.js) – structured event tracking
     
