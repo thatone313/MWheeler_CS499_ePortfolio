@@ -11,8 +11,7 @@ title: Databases
 
 The artifact I selected for the Databases outcome is my **Travlr Getaways** full-stack web application, built with the **MEAN stack** (MongoDB, Express, Angular, and Node.js). This project originally served as a travel booking system but was enhanced during CS-499 to demonstrate advanced database design, secure storage, and data-driven personalization. I chose this artifact because it clearly demonstrates my ability to design, query, and optimize a database to support scalable and secure application functionality. It also shows how back-end data structures drive intelligent features like recommendations and event tracking.
 
-![MongoDB Compass – Updated User Schema](images/UserSchemaAfter.jpg)
--
+
 ![EventLog Collection with Logged Events](images/DatabaseStructure.jpg)
 
 ---
@@ -38,8 +37,7 @@ These updates improved the reliability, traceability, and overall performance of
 ![User Schema Before Enhancement](images/UserSchemaBefore.jpg)
 -
 ![User Schema After Enhancement](images/UserSchemaAfter.jpg)
--
-![2FA Fields Stored Securely in MongoDB](images/User2FAFields.jpg)
+The updated user schema now includes secure fields for 2FA and recovery codes.
 -
 ![Recommended Trips Query Result](images/Recommendations.jpg)
 ---
@@ -61,8 +59,9 @@ These enhancements were informed by the same **code review** used to identify im
   
 - Applied indexes and query optimization to improve retrieval times for trips and user history.  
 
-<!-- TODO: Add screenshot or showing eventLog model -->
-<!-- TODO: Add image or showing MongoDB index creation command -->
+![EventLog Model Implementation](images/EventLogs.jpg)
+
+![MongoDB Index Creation Example](images/IndexCreation.jpg)
 
 ---
 
