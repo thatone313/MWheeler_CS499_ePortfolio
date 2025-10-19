@@ -11,6 +11,8 @@ I used my **Travlr Getaways** project to demonstrate the skills I’ve built acr
 
 ![Travlr Getaways Homepage](../artifacts/software-design/images/TravlrHomePage.jpg)
 
+*Homepage view of the Travlr Getaways web application.*
+
 ---
 
 ## Collaboration & Communication
@@ -23,7 +25,8 @@ I treated this like a small team project: I logged problems clearly (HTTP 401s, 
 
 ## Software Engineering & Databases
 
-I refactored backend routes and controllers (Node/Express/MongoDB) to be more predictable and secure: JWT auth with a role claim for admin-only endpoints, cleaner error handling, and a proper `/api` routing structure. On the data side, I corrected user schema fields (arrays vs strings), added an **EventLog collection** for auditable login events, and built endpoints that update user history in a controlled way (moved “add to history” from add-to-cart to checkout). On the frontend (Angular), I organized services and components, added a working search with debounced queries, and made admin/user behavior clear (e.g., hiding Similar/Recommend where it doesn’t make sense).
+I refactored backend routes and controllers (Node/Express/MongoDB) to be more predictable and secure. This included implementing JWT authentication with role-based access for admin endpoints, cleaner error handling, and a
+dedicated `/api` routing structure. On the data side, I restructured user schema fields (arrays vs. strings), added an **EventLog collection** for auditable login events, and built endpoints that update user history in a controlled way—moving “add to history” logic from the cart step to checkout. On the frontend (Angular), I organized services and components, implemented a working search feature with debounced queries, and clarified admin/user behavior by hiding features such as **Similar** and **Recommend** where they didn’t apply.
 
 
 
@@ -47,7 +50,8 @@ I added TOTP-based **2FA (Speakeasy)** with recovery codes, **rate limiting** on
 
 ## Growth & Next Steps
 
-The biggest lessons were: get the schema right, keep routes predictable, log what matters, and build features incrementally while keeping the site usable. If I had more time, I’d add automated tests, harden input validation, and refactor recommendations to support weighted fields and learned preferences. Overall, this work demonstrates the five CS outcomes in a cohesive way: I planned, communicated, implemented, secured, and iterated on a full-stack solution that delivers real value.
+The biggest lessons I learned were to design schemas correctly, keep routes predictable, log only what matters, and build new features incrementally while ensuring usability. If given more time, I would expand automated testing, improve input validation, and enhance the recommendation engine to support weighted scoring and adaptive learning. Overall, this work demonstrates all five **CS outcomes** cohesively:  
+I **planned**, **communicated**, **implemented**, **secured**, and **iterated** on a full-stack application that delivers real value.
 
 ## Final Project Download
 The complete, fully enhanced version of the Travlr Getaways application can be downloaded below.
