@@ -62,10 +62,10 @@ This phase built directly upon the **recommendations** identified during my orig
 ![Rate Limiting Algorithm Implementation](images/RateLimitingCode.jpg)
 *JavaScript implementation of the login rate limiter restricting excessive login attempts.*
 
-![Event Log Model Example](images/EventLogs.jpg)
+![Event Log Model Example](../databases/images/EventLogs.jpg)
 *MongoDB collection recording system events for auditing and anomaly detection.*
 
-![Recommended Trips Display](images/Recommendations.jpg)
+![Recommended Trips Display](../databases/images/Recommendations.jpg)
 *Results returned by the recommendation logic based on user trip history.*
 
 ---
