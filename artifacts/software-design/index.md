@@ -100,7 +100,7 @@ This enhancement demonstrates my ability to **apply software engineering princip
   - [eventLog.js](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/eventLog.js) – structured event tracking
 
  - **Supporting Documentation:**
-  - [Milestone Two Narrative](../../supporting-files/CS499MilestoneTwo.docx)
+  - [Milestone Two Narrative](https://github.com/thatone313/MWheeler_CS499_ePortfolio/blob/main/supporting_files/CS499MilestoneTwo.docx)
 
     
 
