@@ -74,6 +74,7 @@ These changes enhanced the security, reliability, and maintainability of the app
 
 ## Code Review Notes
 Before starting these enhancements, I recorded a full **code review video** that evaluated areas for improvement in the authentication, routing, and model layers.  
+
 This video covered existing vulnerabilities and outlined the plan to strengthen design and security practices.
 
 -🎥 - **Code Review Video - Part 1:** [Watch Here](https://youtu.be/yE4y5FZN2ck)
