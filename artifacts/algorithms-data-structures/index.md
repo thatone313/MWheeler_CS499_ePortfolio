@@ -103,7 +103,7 @@ Through these improvements, I gained deeper insight into how well-designed algor
 - **Code Review Videos:**  
   - [Part 1](https://youtu.be/yE4y5FZN2ck)  
   - [Part 2](https://youtu.be/-rbaklZHxl4)
-  - 
+    
 - **Relevant Files:**
   
   - [app_api/controllers/trips.js](../../supporting_files/trips.js) – role, 2FA fields, and recovery codes
