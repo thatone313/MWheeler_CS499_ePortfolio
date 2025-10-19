@@ -70,4 +70,5 @@ userSchema.methods.generateJWT = function() {
 }; 
 
 
+
 module.exports = mongoose.model('users', userSchema);
