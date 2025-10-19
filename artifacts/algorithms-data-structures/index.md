@@ -51,8 +51,8 @@ These enhancements demonstrate my ability to design and apply algorithms that ba
 
 This phase built directly upon the **recommendations** identified during my original **code review video**. I analyzed the efficiency of my search logic, the need for better login protections, and the absence of consistent logging.
 
-🎥 [**Watch Code Review Video – Part 1**](https://youtu.be/yE4y5FZN2ck)  
-🎥 [**Watch Code Review Video – Part 2**](https://youtu.be/-rbaklZHxl4)
+-🎥 [**Watch Code Review Video – Part 1**](https://youtu.be/yE4y5FZN2ck)  
+-🎥 [**Watch Code Review Video – Part 2**](https://youtu.be/-rbaklZHxl4)
 
 
 **Key improvements from review to enhancement:**
