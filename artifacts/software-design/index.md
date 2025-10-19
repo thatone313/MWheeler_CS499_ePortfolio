@@ -40,11 +40,17 @@ These changes enhanced the security, reliability, and maintainability of the app
 <!-- TODO: Add screenshot of MongoDB event log entries showing successful and failed logins -->
 <!-- TODO: Add terminal log showing rate limiter in use -->
 ![Login Before Enhancement](images/No2FA.jpg)
+-
 ![Login After Enhancement](images/w2FA.jpg)
+-
 ![User Access Restricted](images/TravelListPage.jpg)
+-
 ![Admin Access Full Access](images/TravelListingAdmin.jpg)
+-
 ![Login Event Logs](images/LoginEventLog.jpg)
+-
 ![Login Rate Limiter](images/Login_Limiter1.jpg)
+-
 ![Login Rate Limiter](images/Login_Limiter2.jpg)
 
 ---
