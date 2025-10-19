@@ -94,14 +94,9 @@ Through these improvements, I gained deeper insight into how well-designed algor
   - 
 - **Relevant Files:**
 - 
-  - `app_api/controllers/trips.js` – search, filtering, and recommendation logic  
-  - `app_api/routes/index.js` – rate limiting and middleware setup  
-  - `app_api/models/eventLog.js` – event logging model and schema
-  - 
-- **Planned Screenshots:**  
-  - Search results showing new filtering behavior  
-  - Rate-limit error message after excessive login attempts  
-  - MongoDB event log entries displaying recorded actions
- 
-    <!-- TODO: After capturing screenshots, upload them to artifacts/algorithms-data-structures/images/-->
-    <!-- TODO: Replace bulletpoints with images-->
+  - [app_api/controllers/trips.js](../../supporting_files/trips.js)– role, 2FA fields, and recovery codes
+  - [app_api/routes/index.js](../../supporting_files/index.js) – route based access control
+  - [app_api/models/eventLog.js](../../supporting_files/eventLog.js) – structured event tracking
+    
+    
+
