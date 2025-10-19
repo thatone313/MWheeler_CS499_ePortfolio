@@ -99,9 +99,11 @@ This enhancement demonstrates my ability to **apply software engineering princip
   
 - **Relevant Files:**
    
-  - `app_api/controllers/authentication.js` – 2FA logic and JWT handling  
-  - `app_api/models/user.js` – role, 2FA fields, and recovery codes  
-  - `app_api/models/eventLog.js` – structured event tracking
+- [authentication.js](supporting_files/authentication.js) – 2FA logic and JWT handling
+  - [user.js](supporting_files/user.js) – role, 2FA fields, and recovery codes
+  - [app.routes.ts](supporting_files/app.routes.ts) – route based access control
+  - [eventLog.js](supporting_files/eventLog.js) – structured event tracking
+
     
 - **Before/After Screenshots:**  
   - Login flow with 2FA prompt  
