@@ -45,9 +45,9 @@ These changes enhanced the security, reliability, and maintainability of the app
 -
 ![User Access Before Enhancement](images/TravelListingBefore.jpg)
 -
-![User Access After Enhancement](images/TravelListPage.jpg)
+![User Access After Enhancement](images/TravelListPageAfter.jpg)
 -
-![Admin Full Access](images/TravelListingAdmin.jpg)
+![Admin Access After Enhancement](images/TravelListingAdmin.jpg)
 -
 ![Login Event Logs](images/LoginEventLog.jpg)
 -
